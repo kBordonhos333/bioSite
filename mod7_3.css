@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	width: 100%;
+	width: auto;
 	margin: 0 auto;
 }
 
@@ -28,16 +28,12 @@ h2 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
 	grid-gap: 1rem;
-	margin-top: 2%;
 	padding: 20px;
 }
 
 .container {
-	width: 75%;
-	margin-left: auto;
-	margin-right: auto;	
-	margin-top: 2%;
-	padding: 10px;
+	width: auto;
+	padding: 20px;
 }
 
 .left {
@@ -67,12 +63,12 @@ figure.gallery2 {
 }
 
 figure.gallery3 {
-	display: flex;
+	display: inline-flex;
 	margin: 0px;
-	padding: 5px;
+	padding: 20px;
 	border: 2px solid #507A3B;
 	background-color: #F7E0B2;
-	text-align: center;
+	text-align: left;
 }
 
 figure img {
@@ -117,7 +113,7 @@ figure img {
 
 #nav li {
 	display: inline;
-	padding: 5px;
+	padding: 25px;
 	font-family: sans-serif, Verdana, Arial;
 	font-size: 24px;
 }
@@ -141,8 +137,9 @@ figure img {
 #nav {
 	background-color: #464442;
 	border: 1px solid #F7E0B2;
-	padding: 5px;
-	margin: 5px;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 2%;
 	text-align: center;
 }
 
